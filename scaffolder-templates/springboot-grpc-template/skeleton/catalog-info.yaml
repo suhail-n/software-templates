@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Springboot GRPC Template
+  name: springboot_grpc_template
   title: Springboot GRPC Template
   description: This template is used to generate a springboot grpc codebase
   tags:
