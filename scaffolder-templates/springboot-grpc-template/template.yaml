@@ -9,7 +9,7 @@ metadata:
     - java
     - grpc
 spec:
-  owner: foobar
+  owner: user:guest
   type: service
 
   parameters:
