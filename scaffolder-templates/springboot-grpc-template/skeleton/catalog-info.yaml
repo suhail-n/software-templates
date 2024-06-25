@@ -1,11 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: {{ (values.component_id | default('my-component') | dump) | string }}
-  description: ${{ values.description | dump }}
+  name: Springboot GRPC Template
+  title: Springboot GRPC Template
+  description: This template is used to generate a springboot grpc codebase
+  tags:
+    - springboot
+    - grpc
+    - recommended
   annotations:
-    github.com/project-slug: ${{ values.destination.owner + "/" + values.destination.repo }}
-    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: experimental
